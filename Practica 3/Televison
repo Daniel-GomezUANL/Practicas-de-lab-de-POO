@@ -1,0 +1,36 @@
+
+package Practica3;
+
+public class Televison extends DispositivoElectronico implements IFunciones{
+    public void setMarca(){
+        System.out.println("La marca es: LG");
+    }
+    public void setModelo(){
+        System.out.println("El modelo es: Smart tv pro");
+    }
+    public void Color(){
+        System.out.println("El color es: Negro");
+    }
+    @Override
+    public void encender(){
+        System.out.println("La Tv esta encendida");
+    }
+    @Override
+    public void apagar(){
+        System.out.println("La Tv esta apagada");
+    }
+
+    @Override
+    public void subirvolumen() {
+    }
+
+    @Override
+    public void bajarvolumen() {
+    }
+
+    @Override
+    public void Cambiardecanal() {
+        System.out.println("Acaba de cambiar el canal al numero 12");
+    }
+
+    
