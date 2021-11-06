@@ -1,52 +1,23 @@
+
 package Animal;
-public class Principal {
 
-    public static void main(String[] args) {
-        
-    //// Perro ////
-    Perro p1 = new Perro();
-    System.out.println("    PERRO    ");    
-    p1.setRaza("Pastor");
-    System.out.println("Raza: "+p1.getRaza()); 
-    p1.ladrar();
-    p1.caminar();
-    p1.mostrarMensaje();
-    
-    Perro p2 = new Perro();
-    p2.setRaza("Chihuhua");
-    System.out.println("Raza: "+p2.getRaza()+"");
-    p2.ladrar();
-    p2.caminar();
-    p2.mostrarMensaje();
-
-    //// Gato ////
-    System.out.println("    GATO    ");
-    Gato ga1 = new Gato();
-    ga1.setRaza("Persa");
-    System.out.println("Raza: "+ga1.getRaza());
-    ga1.maullido();
-    ga1.brincar();
-    ga1.mostrarMensaje();
-    
-    Gato ga2 = new Gato();
-    ga2.setRaza("Siames");
-    System.out.println("Raza: "+ga2.getRaza());
-    ga2.maullido();
-    ga2.brincar();
-    ga2.mostrarMensaje();
-    //// Ave ////
-    System.out.println("    AVE    ");
-    Ave av1 = new Ave ();
-    av1.setRaza("Perico");
-    System.out.println("Raza: "+av1.getRaza());
-    av1.volar();
-    av1.cantar();
-    
-    Ave av2 = new Ave();
-    av2.setRaza("Canario");
-    System.out.println("Raza: "+av2.getRaza());
-    av2.volar();
-    av2.cantar();
-    
+public class Gato extends Animal{
+    //// PRIVADO ////
+    private String Raza;
+    public void setRaza(String raza){
+        Raza = raza;
+    }
+    public String getRaza(){
+        return Raza;
+    }
+    //// PUBLICO ////
+    public void comer(){
+        System.out.println("Estoy comiendo");
+    }
+    public void maullido(){
+        System.out.println("Estoy maullando");
+    }
+    public void brincar(){
+        System.out.println("Estoy brincando");
     }
 }
