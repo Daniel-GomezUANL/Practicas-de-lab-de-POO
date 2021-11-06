@@ -1,0 +1,9 @@
+
+package Practica3;
+
+public interface IFunciones {
+    
+    public void subirvolumen();
+    public void bajarvolumen();
+    public void Cambiardecanal();
+}
