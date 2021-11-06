@@ -1,0 +1,29 @@
+
+package Practica3;
+
+public class Radio extends DispositivoElectronico implements IFunciones{
+    
+    public void setMarca(){
+        System.out.println("La marca es: Casio");
+    }
+    public void setModelo(){
+        System.out.println("El modelo es: Radio FM");
+    }
+    public void Color(){
+        System.out.println("El color es: Gris");
+    }
+    
+    @Override
+    public void subirvolumen() {
+    }
+
+    @Override
+    public void bajarvolumen() {
+    }
+
+    @Override
+    public void Cambiardecanal() {
+        System.out.println("Acaba de cambiar la estacion 102.1");
+    }
+    
+}
