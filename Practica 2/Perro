@@ -1,0 +1,23 @@
+
+package Animal;
+
+public class Perro extends Animal{
+    //// PRIVADO ////
+    private String Raza;
+    public void setRaza(String raza){
+        Raza = raza;
+    }
+    public String getRaza(){
+        return Raza;
+    }
+    //// PUBLICO ////
+    public void comer(){
+        System.out.println("Estoy comiendo");
+    }
+    public void ladrar(){
+        System.out.println("Estoy ladrando");
+    }
+    public void caminar(){
+        System.out.println("Estoy caminando");
+    }
+}
