@@ -1,0 +1,24 @@
+
+package Animal;
+
+public class Animal {
+    private String Carnivoro;
+    
+    ////Privado////
+    public void setCarnivoro(String carnivoro ){
+        Carnivoro = carnivoro;
+    }
+    public String getCarnivoro(){
+        return Carnivoro;
+    }
+
+    ////Publico////
+    public void comer(){
+        
+       System.out.println("Estoy comiendo");
+    }
+    
+    public void mostrarMensaje(){
+        System.out.println("Soy carnivoro\n");
+    }
+} 
