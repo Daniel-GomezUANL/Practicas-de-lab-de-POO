@@ -1,0 +1,28 @@
+///interfaz
+package Practica3;
+
+public abstract class DispositivoElectronico {
+    private String Marca;
+    private String Modelo;
+    
+    //// MARCA ////
+    public String getMarca() {
+        return Marca;
+    }
+    public void setMarca(String Marca) {
+        this.Marca = Marca;
+    }
+    
+    //// Modelo ////
+    public String getModelo() {
+        return Modelo;
+    }
+    public void setModelo(String Modelo) {
+        this.Modelo = Modelo;
+    }
+    //// PUBLICO ////
+    public void encender(){
+    }
+    public void apagar(){
+    }
+}
