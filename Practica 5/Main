@@ -1,1 +1,92 @@
 
+package Practica5;
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args){
+        Automovil a1 = new Automovil("Nisssan ","Tsuru ","Azul ",150000);
+        ArrayList<Automovil> misautos = new ArrayList<>();
+        
+        misautos.add(a1);
+        System.out.println(misautos.size());
+        System.out.println(misautos);
+        a1.encender();
+        a1.acelerar();
+        a1.Derecha();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Nisssan ","tsuru ","Rojo ",200000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(1));
+        a1.encender();
+        a1.acelerar();
+        a1.Derecha();
+        a1.apagar();
+        
+        misautos.add(new Automovil("BMW ","i3  ","Gris ",100000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(2));
+        a1.encender();
+        a1.acelerar();
+        a1.Izquierda();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Tesla ","Model S ","Azul ",500000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(3));
+        a1.encender();
+        a1.acelerar();
+        a1.Izquierda();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Tesla ","Model x ","Azul ",950000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(4));
+        a1.encender();
+        a1.acelerar();
+        a1.Derecha();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Toyota ","Tacoma ","Negro ",700000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(5));
+        a1.encender();
+        a1.acelerar();
+        a1.Izquierda();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Volkswagen ","Jetta ","Negro ",450000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(6));
+        a1.encender();
+        a1.acelerar();
+        a1.Derecha();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Ramn ","Promaster ","Blanco ",150000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(7));
+        a1.encender();
+        a1.acelerar();
+        a1.Izquierda();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Rolls Royce Motor Cars ","Ghost ","Negro Mate ",350000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(8));
+        a1.encender();
+        a1.acelerar();
+        a1.Izquierda();
+        a1.apagar();
+        
+        misautos.add(new Automovil("Renault ","Logan ","Gris Cromado ",100000));
+        System.out.println(misautos.size());
+        System.out.println(misautos.get(9));
+        a1.encender();
+        a1.acelerar();
+        a1.Derecha();
+        a1.apagar();
+    }
+}
+
