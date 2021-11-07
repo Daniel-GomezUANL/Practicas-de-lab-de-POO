@@ -1,0 +1,6 @@
+
+package Practica5;
+
+public interface Avanzar {
+    public void avanzar();
+}
