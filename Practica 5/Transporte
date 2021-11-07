@@ -1,0 +1,23 @@
+
+package Practica5;
+
+
+public abstract class Transporte implements Avanzar,Frenar {
+    
+    public void encender(){
+        System.out.println("Encender");
+    }
+    @Override
+    public void avanzar(){
+        System.out.println("Avanzar");
+    }
+    public void acelerar(){
+        System.out.println("Acelerar");
+    }
+    public void apagar(){
+        System.out.println("Apagado");
+    }
+    public void frenar(){
+        System.out.println("Frenar");
+    }
+}
