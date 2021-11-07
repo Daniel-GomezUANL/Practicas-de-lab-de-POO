@@ -1,0 +1,6 @@
+
+package Practica5;
+
+public interface Frenar {
+     public void frenar();
+}
