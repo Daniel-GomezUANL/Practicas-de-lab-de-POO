@@ -1,0 +1,16 @@
+
+package Lector;
+
+import java.util.Scanner;
+
+public class Lectores {
+    public String leerCadena(){
+        Scanner in = new Scanner(System.in);
+        return in.nextLine();
+    }
+   
+    public int leerNumero(){
+        Scanner in = new Scanner(System.in);
+        return in.nextInt();
+    }
+}
