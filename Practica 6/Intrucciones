@@ -1,0 +1,36 @@
+Instrucciones
+Desarrollar lo siguiente crear un arreglo de 5 teléfonos y un arreglo de 5 contactos, imprimir las funciones de cada teléfono y por cada contacto
+
+Lista de contactos
+
+1 C1
+
+2 C2
+
+3 C3
+
+Telefono MARCAX, PRECIO MODELO, COLOR
+
+ConexionWIFI= True / false
+
+IniciaLlmada NUMERO(C1)
+
+IniciaLlamada NOMBRECONTACTO(C1)
+
+FinalizaLlamada
+
+Lista de contactos
+
+1 C1
+
+2 C2
+
+3 C3
+
+Telefono MARCAX, PRECIO MODELO, COLOR
+
+IniciaLlmada NUMERO(C3)
+
+IniciaLlamada NOMBRECONTACTO(C3)
+
+FinalizaLlamada
