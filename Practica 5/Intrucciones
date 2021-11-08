@@ -1,0 +1,75 @@
+Actividad #7
+
+Ponderación: 10 %
+
+Clase padre Transporte Abtracta (Abtracto Encender, NO Abstract Avanzar) Clase Hija Automóvil (- String Marca,  - String Modelo - String Precio), (Métodos Vuelta(String Derecha-Izquierda)
+herencia polimorfismo y sobre escritura de métodos
+
+interface Avanzar
+
++String avanzar(int gasolina)
+
+interface Frenar
+
++void frenar()
+
+Clase Main ArrayList 10 Autos
+
+OUTPUT *****Automovil MARCA ***** Modelo: MODELO
+
+Color: COLOR Precio: PRECIO
+
+Enciende
+
+Avanza
+
+Vuelta Izquierda
+
+*****Automovil MARCA *****
+
+Modelo: MODELO Color: COLOR
+
+Precio: PRECIO
+
+Enciende Avanza
+
+Vuelta Izquierda
+
+ArrayList<Automovil> al = new ArrayList<Automovil>(10);
+
+ 
+
+Clase padre Transporte Abtracta (Abtracto Encender, NO Abstract Avanzar) Clase Hija Automóvil (- String Marca,  - String Modelo - String Precio), (Métodos Vuelta(String Derecha-Izquierda)
+herencia polimorfismo y sobre escritura de métodos
+
+interface Avanzar
+
++String avanzar(int gasolina)
+
+interface Frenar
+
++void frenar()
+
+ArrayList<Transporte> al = new ArrayList<Transporte>(10);
+
+ 
+
+5 Autos y 5 Trenes
+
+ArrayList<Transporte>
+
+Crear clase Tren e imprimir una salida similar a la de automovil
+
+Clase Main Automovil auto = new Automovil();
+
+auto.setCOlor() auto.enciende() auto.acelera( . auto.pagado
+
+Transporte tr = new Automovil();
+
+tr.listaMetodos();
+
+IAvanzar iAuto= new automovil();
+
+Ver los resultados en el output
+
+Mi trabajo
