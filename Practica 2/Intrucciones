@@ -1,0 +1,13 @@
+Animal
+- String carnivoro
++ void comer()
+
+
+Perro Gato Ave
+- String raza - String raza - String raza
++ ladrar() + maullido()
++ caminar() + brincar() + volar()
+
+
++ Pastor Chuhuhua Persa Siames Perico Canario
+correr() correr() + cantar()
