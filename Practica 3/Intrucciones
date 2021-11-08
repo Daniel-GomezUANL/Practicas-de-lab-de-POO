@@ -1,0 +1,56 @@
+Proyecto Java desarrollar los siguiente, usar una clase main para ejecutar todo.
+
+
+
+
+Clase padre Abtract class 
+
+DispositivoElectronico
+
+-StringMarca
+
+-StringModelo
+
+ +void encender()
+
++void apagar()
+
+Intreface
+
+IFunciones
+
++ void Subir/bajar Volumen()
+
++ String Cambiar de Canal()
+
+IOperacionesAritmeticas
+
+Suma,Resta etc
+
+Opcional creainterface para configuracionMenu o implementar en cada clase
+
+Heredar
+
+ 
+
+Television
+
+Radio
+
+Calculadora
+
+ 
+
+Ejecutar todo en el main
+
+Output:
+
+Televisión: MARCA, Modelo: ¿??????, Color: ¿???
+
+Dispositivo Enciende
+
+Cambia de canal
+
+Configuración de Menú
+
+Dispositivo Apagado
