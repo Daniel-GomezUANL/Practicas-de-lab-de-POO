@@ -1,1 +1,22 @@
 
+package Lector;
+
+import Practica5.Vehiculo;
+
+public class Main {
+     public static void main(String[]args){
+        Lector.Lectores leer = new Lector.Lectores();
+        Vehiculo carro = new Vehiculo();
+        String dato;
+        System.out.println("Ingrese matricula del vehiculo: ");
+        dato = leer.leerCadena();
+        carro.setMatricula(dato);
+        System.out.println("Ingrese marca de carro(Ford,Toyota,Suzuki,Renault,Seat).");
+        dato = leer.leerCadena();
+        carro.setMarca(dato);
+        System.out.println("La marca del carro es " + carro.getMarca() + ".\nLa matricula es: " + carro.getMatricula() + ".");
+    }
+}
+
+
+
