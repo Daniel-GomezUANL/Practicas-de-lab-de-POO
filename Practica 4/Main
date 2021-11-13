@@ -1,1 +1,30 @@
 
+package Practica4;
+
+public class Main {
+    public static void main(String[] args){
+        
+        Cadenaseparadaporguiones c1 = new Cadenaseparadaporguiones();
+        c1.separa(args);
+        
+        Cadenaseparadaporguiones c2 = new Cadenaseparadaporguiones();
+        c2.valida(args);
+        
+        Cadenaseparadaporguiones c3 = new Cadenaseparadaporguiones();
+        c3.subcadena(args);
+        
+        Cadenaseparadaporguiones c4 = new Cadenaseparadaporguiones();
+        c4.contarLetrase(args);
+        
+        Cadenaseparadaporguiones c5 = new Cadenaseparadaporguiones();
+        c5.apellidos();
+        
+        Cadenaseparadaporguiones c6 = new Cadenaseparadaporguiones();
+        c6.invertir();
+        
+        Cadenaseparadaporguiones c7 = new Cadenaseparadaporguiones();
+        c7.conversion();
+    
+    }
+}
+
