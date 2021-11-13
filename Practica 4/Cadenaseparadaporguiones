@@ -1,0 +1,144 @@
+
+package Practica4;
+
+import java.util.Scanner;
+import java.util.Stack;
+import java.util.StringTokenizer;
+
+public class Cadenaseparadaporguiones {
+    /*
+    Realizar un programa pregunte por una cadena separada por guiones 
+    y que divida la cadena por medio de los guiones. Imprimir el resultado
+    */
+    public void separa(String[] args){
+        System.out.println("Introduce una cadena: ");
+        Scanner dato = new Scanner(System.in);
+        String entrada = dato.nextLine();
+        
+        String mayus="";
+        int n_mayus=0;
+        String minus="";
+        int n_minus=0;
+
+for(int i = 0; i<entrada.length();i++){
+    if (Character.isUpperCase(entrada.charAt(i))){
+        n_mayus++;
+        mayus+=entrada.charAt(i)+"-";
+    }
+    if (Character.isLowerCase(entrada.charAt(i))){
+        n_minus++;
+        minus+=entrada.charAt(i)+"-";
+    }
+}  
+    System.out.println("Mayusculas("+n_mayus+"): "+mayus);
+    System.out.println("Minusculas("+n_minus+"): "+minus);
+}
+    /* 
+    Realizar un programa que introduzca una cadena o texto además un sengudo string,
+    para validar en la primer cadena y utilizando StartsWith y EndsWith nos indique falso o verdadero
+    */
+    public void cadena(){
+    }
+    /*
+    Realizar un programa que comprueba si una cadena leída por teclado comienza 
+    por una subcadena introducida por teclado.
+    */
+    public void subcadena(){
+        System.out.println("Introduce una cadena: ");
+        Scanner cadena = new Scanner(System.in);
+        String ent = dato.nexLine();
+        System.out.println("Subcadena: "+name.subtring(2));
+    }
+    /*
+    Pide una cadena y un carácter por teclado (valida que sea un carácter)
+    y muestra cuantas veces aparece el carácter en la cadena.
+    */
+    public void valida(String[] args){
+        System.out.println("Introduce una cadena: ");
+        Scanner cadena = new Scanner(System.in);
+        String ent = dato.nexLine();
+        int contador=0;
+        for(int i=0; i<cadena.length(); i++){
+            if(cadena.charAt(i)=='y'){
+                contador++;
+            }
+        }
+        System.out.println("Mayusculas("+contador+"): "+cadena);
+    }
+    /*
+    Suponiendo que hemos introducido una cadena por teclado que representa una frase (palabras separadas por espacios), 
+    realiza un programa que cuente cuantas palabras tiene.
+    */
+    public int contarLetrase(String frase){
+        System.out.println("Introduce una frase: ");
+        Scanner cadena = new Scanner(System.in);
+        int numeroLetras = 0;
+        String frasesMinusculas = frase.toLowerCase();
+        for(int i=0; i<fraseMinusculas.length(); i++){
+            char letra = fraseminusculas.charAt(i);
+            if(letra!=''){
+            for(int j=0; j<letras.legth; j++){
+                numeroLetras++;
+                break;
+            }
+        }
+        }
+    }
+    /*
+    Si tenemos una cadena con un nombre y apellidos, realizar un programa que muestre 
+    las iniciales en mayúsculas.
+    */
+    public void apellidos(){
+        System.out.println("Introduce su nombre ");
+        Scanner Teclado = new Scanner(System.in);
+        String nom,ape;
+        nom = Teclado.nextLine();
+        System.out.println("Ingrese su apelldio");
+        ape = Teclado.nextLine();
+        System.out.println("usted se lama"+nom+" "+ape);
+    }
+    //Realizar un programa que dada una cadena de caracteres por caracteres, genere otra cadena resultado de invertir la primera.
+    public void invertir(){
+        String lenguaje = "Hola esto es una cadena";
+        StringBuider sb = newStringBuilder(lenguaje);
+        System.out.println(sb.reverse());
+        Stack<String> palabras = new Stack<>();
+        StringTokenizer st = new StringTokenizer(lenguaje," ");
+        
+        while(st.hasMoretokens()){
+            palabras.add(st.nextToken());
+        }
+        while(!palabras.empty()){
+            System.out.println(palabras.pop());
+            System.out.println('');
+        }
+    }
+    //Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
+
+    //Realizar un programa que lea una cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
+     public void conversion(){
+    String lenguaje1 = "Bienvenidos";
+    String lenguaje2 = "bienvenidor";
+    
+    String lenguaje3 = lenguaje1.toUpperCase();
+    System.out.println(lenguaje3);
+    
+    String lenguaje4 = lenguaje1.toLowerCase();
+    System.out.println(lenguaje4);
+    
+    System.out.println(lenguaje1.equals(lenguaje2));
+    System.out.println(lenguaje1.equalsIgnoreCase(lenguaje2));
+    
+}
+
+    void subcadena(String[] args) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void contarLetrase(String[] args) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}  
+
+
+
